@@ -36,7 +36,7 @@ const Kategori = () => {
           >
             {kategoris.map((link) => (
               <div className={`w-40 h-60 bg-emerald-200 rounded-lg mr-3 mb-2 ${open ? "" : "inline-block"}`}>
-                <li key={link.kategori} className="h-full w-full rounded-md p-2 relative">
+                <li key={link.kategori} className="h-full w-full rounded-md p-2 relative list-none">
                   <a href={link.link}>
                     <div className="absolute bottom-2 bg-white h-16 rounded-md" id="kategori-name">
                       <div className="flex justify-center items-center h-full w-full text-xl  text-emerald-700 text-center flex-col font-semibold">
